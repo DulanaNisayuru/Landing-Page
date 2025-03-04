@@ -13,6 +13,8 @@ const Features = () => {
             <div key={index} className="p-6 bg-gray-100 dark:bg-gray-800 rounded-lg shadow-md text-center">
               <h3 className="text-xl font-semibold text-gray-900 dark:text-white">{feature.title}</h3>
               <p className="text-gray-600 dark:text-gray-300 mt-2">{feature.description}</p>
+              <p className="text-gray-600 dark:text-gray-300 mt-2">Test</p>
+              <p className="text-gray-600 dark:text-gray-300 mt-2">Test</p>
             </div>
           ))}
         </div>
